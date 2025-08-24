@@ -3,13 +3,13 @@
 A simple web application that allows users to input ingredients and instantly get a nutritional analysis of their meal. It calculates calories, protein, carbs, and fats, and provides feedback on meal balance with recommendations.
 
 Features
-•	Input ingredients separated by commas.
-•	Provides nutritional breakdown per ingredient.
-•	Calculates total Calories, Protein, Carbs, and Fat.
-•	Analyzes meal balance (Low Protein, High-Carb, High-Fat, Balanced).
-•	Provides personalized recommendations to improve nutrition.
-•	Lightweight, fast, and runs entirely in the browser.
-•	Mobile responsive design.
+1.	Input ingredients separated by commas.
+2.	Provides nutritional breakdown per ingredient.
+3.	Calculates total Calories, Protein, Carbs, and Fat.
+4.	Analyzes meal balance (Low Protein, High-Carb, High-Fat, Balanced).
+5.	Provides personalized recommendations to improve nutrition.
+6.	Lightweight, fast, and runs entirely in the browser.
+7.	Mobile responsive design.
 
  
 Technologies Used
@@ -37,15 +37,23 @@ python app.py
 
 File Structure
 nutrition-estimator/
-│
+
+
 ├─ venv/                   # Virtual environment
+
 ├─ index.html              # Main HTML file
+
 ├─ style.css               # CSS styling
+
 ├─ script.js               # JavaScript logic
+
 ├─ app.py                  # Optional Python backend server
+
 ├─ requirements.txt        # Python dependencies
+
 ├─ README.md               # This file
-└─ screenshot.png          # Demo screenshot
+
+
 
 How It Works
 1.	User inputs ingredients in the input box.
@@ -63,6 +71,7 @@ Future Enhancements
 •	Allow users to save meal logs.
 
 •	Add ML-based meal suggestions for specific diets (keto, vegan, etc.)
+
 
 
 
