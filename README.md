@@ -14,7 +14,9 @@ Features
  
 Technologies Used
 •	Frontend: HTML, CSS, JavaScript
+
 •	Backend (optional): Python Flask for a server version
+
 •	IDE: VS Code
 
 How to Run Locally
@@ -57,4 +59,5 @@ Future Enhancements
 •	Integrate with an external nutrition API for real-time data.
 •	Allow users to save meal logs.
 •	Add ML-based meal suggestions for specific diets (keto, vegan, etc.)
+
 
