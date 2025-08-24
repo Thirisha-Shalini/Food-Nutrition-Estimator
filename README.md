@@ -1,5 +1,7 @@
-🥗 Food Nutrition Estimator
+🥗** Food Nutrition Estimator**
+
 A simple web application that allows users to input ingredients and instantly get a nutritional analysis of their meal. It calculates calories, protein, carbs, and fats, and provides feedback on meal balance with recommendations.
+
 Features
 •	Input ingredients separated by commas.
 •	Provides nutritional breakdown per ingredient.
@@ -8,12 +10,13 @@ Features
 •	Provides personalized recommendations to improve nutrition.
 •	Lightweight, fast, and runs entirely in the browser.
 •	Mobile responsive design.
-Demo Screenshot
+
  
 Technologies Used
 •	Frontend: HTML, CSS, JavaScript
 •	Backend (optional): Python Flask for a server version
 •	IDE: VS Code
+
 How to Run Locally
 Option 1: HTML + JS Only
 1.	Clone the repo:
@@ -54,3 +57,4 @@ Future Enhancements
 •	Integrate with an external nutrition API for real-time data.
 •	Allow users to save meal logs.
 •	Add ML-based meal suggestions for specific diets (keto, vegan, etc.)
+
