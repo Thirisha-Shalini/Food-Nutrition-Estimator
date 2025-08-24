@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Nutrition Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🥗 Food Nutrition Estimator</h1>
+            <p>Get instant nutritional analysis of your meals</p>
+        </div>
+
+        <div class="input-section">
+            <label class="input-label" for="ingredients">
+                Enter your ingredients (separated by commas):
+            </label>
+            <input 
+                type="text" 
+                id="ingredients" 
+                class="ingredient-input"
+                placeholder="e.g., rice, chicken breast, olive oil, broccoli"
+            >
+            <button class="analyze-btn" onclick="analyzeMeal()">
+                Analyze Nutrition
+            </button>
+        </div>
+
+        <div id="results" class="results">
+            <div id="ingredientList" class="ingredient-list"></div>
+            
+            <div class="nutrition-grid">
+                <div class="nutrition-card calories">
+                    <div id="totalCalories" class="nutrition-value">0</div>
+                    <div class="nutrition-label">Calories</div>
+                </div>
+                <div class="nutrition-card protein">
+                    <div id="totalProtein" class="nutrition-value">0g</div>
+                    <div class="nutrition-label">Protein</div>
+                </div>
+                <div class="nutrition-card carbs">
+                    <div id="totalCarbs" class="nutrition-value">0g</div>
+                    <div class="nutrition-label">Carbs</div>
+                </div>
+                <div class="nutrition-card fat">
+                    <div id="totalFat" class="nutrition-value">0g</div>
+                    <div class="nutrition-label">Fat</div>
+                </div>
+            </div>
+
+            <div id="mealAnalysis" class="meal-analysis"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
