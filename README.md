@@ -55,9 +55,14 @@ How It Works
 5.	Feedback and recommendations are displayed.
 
 Future Enhancements
+
 •	Add support for more ingredients and regional foods.
+
 •	Integrate with an external nutrition API for real-time data.
+
 •	Allow users to save meal logs.
+
 •	Add ML-based meal suggestions for specific diets (keto, vegan, etc.)
+
 
 
